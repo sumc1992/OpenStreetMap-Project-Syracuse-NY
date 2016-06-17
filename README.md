@@ -201,4 +201,4 @@ statue,2
 ### Conclusion
 Although this Syracuse dataset is relatively clean when compared to other metropolitan areas,
 I see many potential areas of improvement in terms of the consistence of tag names, tiger gps locations,
-as well as outdated data. For the purpose of this project, I think the dataset has been well cleaned.
+as well as outdated data. The map dataset could be drastically improved if the tiger gps locations data points could be validated and checked. But this could be a difficulty task to accomplish as one would have to find a third party dataset like Google or Bing to validate the data but mapping data is usually confidential. Another way to greatly improve the dataset could be to manually scan and check each node and way and update it with latest information. But the task could be very time consuming. For the purpose of this project, I think the dataset has been well cleaned.

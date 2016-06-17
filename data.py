@@ -120,9 +120,12 @@ def update_zip(zip_code):
         return zip_code[0:5]
 
 def update_name(name):
+    # Only two street name abbreviations are found.
     mapping = { "St": "Street",
                 "Courts": "Court"
                 }
+    # I could have used re function to catch the abbreviation and route number
+    # But there are only 5 corrections to be made, i decided to go manually
     if name == 'James St':
         name = 'James Street'
     elif name == 'Presidental Courts':
